@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.cronometro {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.mostrar-tempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.horas,
+.minutos,
+.segundos {
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100px;
+    color: #FFFFFF;
+    margin: 2px;
+}
+
+span {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-iniciar,
+.botao-pausar,
+.botao-zerar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botao-iniciar {   
+    background-color: #009900;
+}
+.botao-iniciar:hover {
+    background-color: #0fc24b;
+}
+
+.botao-pausar {
+    background-color: #FF0000;    
+}
+.botao-pausar:hover {
+    background-color: #FF5555;
+}
+
+.botao-zerar {
+    background-color: #708090;
+}
+.botao-zerar:hover {
+    background-color: #92A2A2;
+}
